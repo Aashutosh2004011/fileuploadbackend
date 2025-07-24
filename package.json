@@ -5,7 +5,7 @@
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "app.js",
+  "main": "app.ts",
   
     "scripts": {
       "dev": "nodemon --exec tsx src/server.ts",
