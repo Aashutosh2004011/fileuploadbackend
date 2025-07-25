@@ -3,10 +3,10 @@ import cors from 'cors';
 import path from 'path';
 import morgan from 'morgan';
 import cookieParser from 'cookie-parser';
-import authRouter from './routes/auth';
-import folderRouter from './routes/folder';
-import imageRouter from './routes/image';
-import errorHandler from './utils/error';
+import authRouter from './routes/auth.js';
+import folderRouter from './routes/folder.js';
+import imageRouter from './routes/image.js';
+import errorHandler from './utils/error.js';
 import fs from 'fs';
 import { fileURLToPath } from 'url';
 

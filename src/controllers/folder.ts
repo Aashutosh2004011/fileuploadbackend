@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
-import Folder from '../models/Folder';
-import asyncHandler from '../utils/asyncHandler';
-import ErrorResponse from '../utils/ErrorResponse';
+import Folder from '../models/Folder.js';
+import asyncHandler from '../utils/asyncHandler.js';
+import ErrorResponse from '../utils/ErrorResponse.js';
 
 export const getFolders = asyncHandler(
   async (req: Request, res: Response, next: NextFunction) => {

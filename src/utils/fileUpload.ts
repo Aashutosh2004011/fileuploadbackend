@@ -1,7 +1,7 @@
 import multer from 'multer';
 import path from 'path';
 import { Request } from 'express';
-import ErrorResponse from './ErrorResponse';
+import ErrorResponse from './ErrorResponse.js';
 
 const storage = multer.diskStorage({
   destination: (req: Request, file, cb) => {

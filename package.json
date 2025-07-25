@@ -4,15 +4,13 @@
   "description": "",
   "license": "ISC",
   "author": "",
-  "type": "module",
+"type": "module",
   "main": "app.ts",
-  
-    "scripts": {
-      "dev": "nodemon --exec tsx src/server.ts",
-      "build": "tsc",
-      "start": "node dist/server.js"
-    },
-  
+  "scripts": {
+    "dev": "nodemon --exec tsx src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cookie-parser": "^1.4.7",

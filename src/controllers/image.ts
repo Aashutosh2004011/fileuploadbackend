@@ -1,9 +1,9 @@
 import { Request, Response, NextFunction } from 'express';
-import Image from '../models/Image';
-import Folder from '../models/Folder';
-import ErrorResponse from '../utils/ErrorResponse';
-import asyncHandler from '../utils/asyncHandler';
-import { getFileUrl } from '../utils/fileUpload';
+import Image from '../models/Image.js';
+import Folder from '../models/Folder.js';
+import ErrorResponse from '../utils/ErrorResponse.js';
+import asyncHandler from '../utils/asyncHandler.js';
+import { getFileUrl } from '../utils/fileUpload.js';
 import path from 'path';
 import fs from 'fs';
 

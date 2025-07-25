@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { protect } from '../middleware/auth';
+import { protect } from '../middleware/auth.js';
 import {
   getFolders,
   getFolder,
@@ -7,7 +7,7 @@ import {
   updateFolder,
   deleteFolder,
   getFolderTree,
-} from '../controllers/folder';
+} from '../controllers/folder.js';
 
 const router = Router();
 

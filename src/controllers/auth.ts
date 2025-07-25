@@ -1,8 +1,8 @@
 import { Request, Response, NextFunction } from 'express';
-import User from '../models/User';
+import User from '../models/User.js';
 import jwt from 'jsonwebtoken';
-import asyncHandler from '../utils/asyncHandler';
-import ErrorResponse from '../utils/ErrorResponse';
+import asyncHandler from '../utils/asyncHandler.js';
+import ErrorResponse from '../utils/ErrorResponse.js';
 import bcrypt from 'bcryptjs';
 
 export const register = asyncHandler(

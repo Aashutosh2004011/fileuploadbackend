@@ -1,8 +1,8 @@
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
-import User from '../models/User';
-import asyncHandler from '../utils/asyncHandler';
-import ErrorResponse from '../utils/ErrorResponse';
+import User from '../models/User.js';
+import asyncHandler from '../utils/asyncHandler.js';
+import ErrorResponse from '../utils/ErrorResponse.js';
 
 interface JwtPayload {
   id: string;

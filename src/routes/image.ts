@@ -1,12 +1,12 @@
 import { Router } from 'express';
-import { protect } from '../middleware/auth';
-import { uploadImage } from '../utils/fileUpload';
+import { protect } from '../middleware/auth.js';
+import { uploadImage } from '../utils/fileUpload.js';
 import {
   uploadImage as uploadImageCtrl,
   getImages,
   searchImages,
   deleteImage,
-} from '../controllers/image';
+} from '../controllers/image.js';
 
 const router = Router();
 
